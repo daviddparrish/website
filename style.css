@@ -1,0 +1,155 @@
+body {
+	background: #e5eeff;
+}
+#wrapper {
+	width: 1024px;
+	margin: 0 auto;
+}
+.menuButton {
+	-moz-box-shadow:inset 0px -3px 7px 0px #29bbff;
+	-webkit-box-shadow:inset 0px -3px 7px 0px #29bbff;
+	box-shadow:inset 0px -3px 7px 0px #29bbff;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #2dabf9), color-stop(1, #0688fa));
+	background:-moz-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+	background:-webkit-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+	background:-o-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+	background:-ms-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+	background:linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2dabf9', endColorstr='#0688fa',GradientType=0);
+	background-color:#2dabf9;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+	border:0px solid #0b0e07;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: "Arial", sans-serif;
+	font-size:15px;
+	margin:2px;
+	padding:15px 40px;
+	text-decoration:none;
+	width: 148px;
+}
+.menuButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0688fa), color-stop(1, #2dabf9));
+	background:-moz-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
+	background:-webkit-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
+	background:-o-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
+	background:-ms-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
+	background:linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0688fa', endColorstr='#2dabf9',GradientType=0);
+	background-color:#0688fa;
+}
+.menuButton:active {
+	position:relative;
+	top:1px;
+}
+#menu {
+	text-align: center;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 20px;
+}
+.title {
+	font-family: "Arial-Bold", sans-serif;
+	font-size: 48px;
+	color: black;
+	margin-left: 150px;
+	margin-right: 150px;
+	text-align: center;
+	position: relative;
+	top: 20px;
+	width: 724px;
+}
+.header {
+	font-family: "Arial-Bold", sans-serif;
+	font-size: 36px;
+	color: black;
+	margin-left: 150px;
+	margin-right: 150px;
+	text-align: center;
+	position: relative;
+	top: 30px;
+	width: 724px;
+}
+.subHeader {
+	font-family: "Arial", sans-serif;
+	font-size: 16px;
+	color: black;
+	margin-left: 340px;
+	margin-right: 340px;
+	text-align: center;
+	position:relative;
+	top: 50px;
+	width: 344px;
+}
+.bodyText {
+	font-family: "Arial", sans-serif;
+	font-size: 16px;
+	color: black;
+	position:absolute;
+	margin-left:100px;
+	margin-right:100px;
+	top: 450px;
+	width: 824px;
+}
+#rID {
+	position: absolute;
+	left: 195px;
+	top: 50px;
+}
+#headshot {
+	position: absolute;
+	height: 175px;
+	left: 700px;
+	top: 5px;
+}
+#trio {
+	position: relative;
+}
+#footer {
+	height: 50px;
+	position: absolute;
+	left: 512px;
+	bottom: -200px;
+	color: #e5eeff;
+}
+.list {
+	font-family: "Arial", sans-serif;
+	font-size: 16px;
+	color: blue;
+	position:relative;
+	margin-left:125px;
+	margin-right:125px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	width: 774px;
+}
+#proList {
+	position: absolute;
+	margin-top: 30px;
+}
+.pgph {
+	font-family: "Arial", sans-serif;
+	font-size: 16px;
+	color: black;
+	position:relative;
+	margin-left:100px;
+	margin-right:100px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	width: 824px;
+}
+.pgphHead {
+	font-family: "Arial-bold", sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: black;
+	position:relative;
+	margin-left:100px;
+	margin-right:100px;
+	margin-bottom:-20px;
+	margin-top: 20px;
+	width: 824px;
+}
