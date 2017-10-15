@@ -1,1 +1,0 @@
-# David D. Parrish, LLC
