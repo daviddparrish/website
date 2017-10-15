@@ -1,1 +1,0 @@
-# daviddparrish.com
